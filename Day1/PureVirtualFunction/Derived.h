@@ -5,7 +5,8 @@
 
 class Derived : public Base {
 public:
-	virtual void parentMethod();
+	void parentMethod();
+	virtual ~Derived() { }
 };
 
 #endif /* __DERIVED__H */

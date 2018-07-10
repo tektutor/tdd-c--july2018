@@ -2,7 +2,7 @@
 
 int main ( ) {
 
-	Derived *pDerived = new Derived;
+	Base* pDerived = new Derived;
 	pDerived->parentMethod();
 
 	delete pDerived;
